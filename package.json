@@ -1,0 +1,24 @@
+{
+  "name": "parcialprog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofiRms/ParcialProg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SofiRms/ParcialProg/issues"
+  },
+  "homepage": "https://github.com/SofiRms/ParcialProg#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
