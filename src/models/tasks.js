@@ -1,5 +1,6 @@
 const {model, Schema } = require('mongoose');
 
+
 const TaskSchema = new Schema({
     title:{
         type: String,
@@ -21,4 +22,5 @@ const TaskSchema = new Schema({
         type: Schema.Types.ObjectId, ref: 'users'
     }
 });
+
 module.exports = model('tasks', TaskSchema);
