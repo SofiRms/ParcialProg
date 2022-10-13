@@ -12,9 +12,9 @@ delete :localhost:puerto /id(del usuario) 🟠
 el método delete utilizado para borrar a un usuario borra todas las tareas creadas por el usuario.
 
 para tareas:
-GET: localhost:puerto/task Un usuario sólo puede ver las tareas creadas por él mismo
- POST localhost:puerto/task crear tarea
- PUT : localhostpuerto/task/id(de la tarea) actualizar tarea
+GET: localhost:puerto/task Un usuario sólo puede ver las tareas creadas por él mismo🟥
+ POST localhost:puerto/task crear tarea🟩
+ PUT : localhostpuerto/task/id(de la tarea) actualizar tarea🟦
  Delete : localhost:puerto/id(de la tarea) borrar tarea
 
 
