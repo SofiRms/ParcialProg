@@ -18,7 +18,6 @@ ctrlTask.putTask = async (req, res)=>{
     res.json(getTask);
 
 }
-
 ctrlTask.createTask = async(req, res) => {
     const { title, description } = req.body;
 

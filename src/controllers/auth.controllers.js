@@ -24,7 +24,6 @@ ctrlAuth.iniciarSesion = async(req, res) => {
                 msg: 'Error al autenticarse(inactivo)'
             });
         }
-
         //verificar contra
         const validPassword= bcrypt.compareSync(password, user.password);
 
