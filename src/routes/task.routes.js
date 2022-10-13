@@ -1,7 +1,6 @@
 const router = require('express').Router();
 
 const { putTask ,createTask, getTasks, deleteTask} = require('../controllers/task.controllers');
-
 const validarJWT=require('../middlewares/validar-jwt');
 
 //crear nueva tarea
