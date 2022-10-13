@@ -9,7 +9,7 @@ require('ejs');
 const dbConnect = require('./src/db/db');//futura conexion
 require('dotenv').config()
 
-//Iniciando express y conectando la base de datos
+// express y conexión la base de datos
 const app= express();
 dbConnect();
 
@@ -32,8 +32,7 @@ app.use(express.static(path.join(__dirname, 'src/public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-//Importacion de futuras rutas
-
+//Importacion de rutas
 app.use(require('./src/routes/user.routes'))
 app.use(require('./src/routes/task.routes'))
 app.use(require('./src/routes/auth.routes'))
