@@ -4,11 +4,11 @@ Para probar los métodos:
 
 para usuarios:
 
-GET:localhost:puerto/user
-POST : localhost:puerto/user crear usuario
-POST: localhost:puerto/login para iniciar sesión y generar token
-PUT : localhost:puerto/id(del usuario)
-delete :localhost:puerto /id(del usuario) 
+GET:localhost:puerto/user🔴
+POST : localhost:puerto/user crear usuario🟡
+POST: localhost:puerto/login para iniciar sesión y generar token🟢
+PUT : localhost:puerto/id(del usuario)🟣
+delete :localhost:puerto /id(del usuario) 🟠
 el método delete utilizado para borrar a un usuario borra todas las tareas creadas por el usuario.
 
 para tareas:
