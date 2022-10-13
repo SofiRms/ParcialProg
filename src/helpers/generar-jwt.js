@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-
 const generarJWT = (uid) => {
     return new Promise((resolve, reject) => {
         // Se genera el token con el id del usuario y la palabra secreta
