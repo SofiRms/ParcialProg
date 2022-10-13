@@ -16,7 +16,7 @@ para tareas:
 
 
 🟪GET: localhost:puerto/task Un usuario sólo puede ver las tareas creadas por él mismo
- 🟥POST localhost:puerto/task crear tarea
+ 🟥POST localhost:puerto/task crear tarea utilizar token de usuario
  🟩PUT : localhostpuerto/task/id(de la tarea) actualizar tarea
  🟦Delete : localhost:puerto/id(de la tarea) borrar tarea
 
