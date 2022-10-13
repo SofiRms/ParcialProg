@@ -15,7 +15,7 @@ ctrlAuth.iniciarSesion = async(req, res) => {
         if(!user){
             return res.status(400).json({
                 ok: false,
-                msg: 'Error al autenticarse (usuario, para no perderme jaja)' 
+                msg: 'Error al autenticar usuario' 
             });
         }
         if (!user.isActive){
@@ -31,14 +31,14 @@ ctrlAuth.iniciarSesion = async(req, res) => {
         if (!validPassword) {
             return res.status(400).json({
                 ok: false,
-                msg: 'Error al autenticarse (contra)'
+                msg: 'Error al autenticar contraseña'
             })
         }
         const token = await generarJWT({uid:user._id})
         res.json(token)
     }catch(error){
         console.log(error)
-        return res.json({msg: 'Error al iniciar sesion'});
+        return res.json({msg: 'Error al iniciar sesión'});
         
     }
 };

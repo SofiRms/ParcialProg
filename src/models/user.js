@@ -18,9 +18,7 @@ const UserSchema = new Schema({
         type: Boolean,
         default: true
     },
-    role:{
-        type: Array,
-    }   
+  
 },{
     versionKey: false,
     timestamps: true

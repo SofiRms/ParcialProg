@@ -33,7 +33,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //Importacion de futuras rutas
-app.use(require('./routes/home.routes'))
+
 app.use(require('./src/routes/user.routes'))
 app.use(require('./src/routes/task.routes'))
 app.use(require('./src/routes/auth.routes'))
