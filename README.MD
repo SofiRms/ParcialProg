@@ -1,4 +1,5 @@
 Se debe agregar una conexión a base de datos Mongo
+Ejecutar comando "npm run dev"
 
 Instrucciones para probar los métodos
 
